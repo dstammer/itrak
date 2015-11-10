@@ -5,6 +5,7 @@ var express = require("express"),
     passport = require("passport"),
     redisStore = require('connect-redis')(express),
     path = require('path'),
+	async = require('async'),
 	flash = require('connect-flash');
 
 var app       = express(),

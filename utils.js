@@ -4,6 +4,7 @@ var fs = require('fs'),
 	hat = require('hat'),
 	cloudinary = require('cloudinary'),
 	express = require('express'),
+	async = require('async'),
 	config = require('./config.js');
 
 module.exports.uploadFile = function(req, callback){
