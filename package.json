@@ -45,7 +45,7 @@
     "validator": "^3.35.0",
     "walk": "^2.3.9"
   },
-  "engine": "node 0.12.1",
+  "engines": "node 0.12.1",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-concat": "^0.5.1",
